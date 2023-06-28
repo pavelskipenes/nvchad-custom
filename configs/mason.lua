@@ -9,6 +9,7 @@ local options = {
     "actionlint",
     "commitlint",
     "jsonlint",
+    "bash-language-server",
   },
 }
 

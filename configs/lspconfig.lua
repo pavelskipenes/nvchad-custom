@@ -6,6 +6,7 @@ local capabilities = global_lspconfig.capabilities
 ---@diagnostic disable-next-line: different-requires
 local lspconfig = require "lspconfig"
 local servers = {
+  "bashls",
 }
 
 for _, lsp in ipairs(servers) do

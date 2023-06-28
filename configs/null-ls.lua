@@ -6,6 +6,7 @@ local diagnostics = null_ls.builtins.diagnostics
 local sources = {
   formatting.stylua,
   formatting.rustfmt,
+  null_ls.builtins.formatting.shfmt,
   diagnostics.actionlint,
   diagnostics.jsonlint,
   diagnostics.dotenv_linter,
