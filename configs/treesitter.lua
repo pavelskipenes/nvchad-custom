@@ -1,13 +1,13 @@
 local ensure_installed = {
-  "lua",
-  "json",
-  "rust",
-  "markdown_inline",
-  "dockerfile",
   "diff",
-  "gitignore",
+  "dockerfile",
+  "git_config",
   "gitattributes",
   "gitcommit",
-  "git_config",
+  "gitignore",
+  "json",
+  "lua",
+  "markdown_inline",
+  "rust",
 }
 return ensure_installed

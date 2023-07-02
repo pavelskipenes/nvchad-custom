@@ -14,7 +14,8 @@ local plugins = {
   },
   {
     "https://git.sr.ht/~whynothugo/lsp_lines.nvim",
-    ft = "rust",
+    -- ft = "rust",
+    lazy = false,
     dependencies = {
       "neovim/nvim-lspconfig",
       dependencies = {
@@ -38,7 +39,7 @@ local plugins = {
   },
   {
     "nvim-treesitter/nvim-treesitter",
-    opts = require("custom.configs.treesitter"),
+    opts = require "custom.configs.treesitter",
   },
   {
     "folke/trouble.nvim",

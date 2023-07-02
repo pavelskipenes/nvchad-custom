@@ -7,6 +7,8 @@ local capabilities = global_lspconfig.capabilities
 local lspconfig = require "lspconfig"
 local servers = {
   "bashls",
+  "marksman",
+  "rome"
 }
 
 for _, lsp in ipairs(servers) do
