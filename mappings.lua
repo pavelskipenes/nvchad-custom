@@ -9,6 +9,7 @@ M.custom = {
     ["j"] = { "jzz", "down" },
     ["k"] = { "kzz", "up" },
     ["<S>g"] = { "<S>gzz", "jump to buttom" },
+    ["<leader>K"] = { "<cmd> VisitLinkNearest <CR>", "open link closest to cursor" },
   },
   i = {
     ["jk"] = { "<ESC>", "escape insert mode", opts = { nowait = true } },

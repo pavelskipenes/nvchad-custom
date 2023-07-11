@@ -51,5 +51,17 @@ local plugins = {
   "arnamak/stay-centered.nvim",
   "mfussenegger/nvim-dap",
   "rcarriga/nvim-dap-ui",
+  {
+    "xiyaowong/link-visitor.nvim",
+    lazy = false,
+    config = function()
+      require("link-visitor").setup {
+        open_cmd = "xdg-open",
+        silent = true,
+        skip_confirmation = true,
+        border = "rounded",
+      }
+    end,
+  },
 }
 return plugins
