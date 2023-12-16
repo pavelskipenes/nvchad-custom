@@ -18,6 +18,11 @@ M.custom = {
       "LSP code action",
     },
   },
+  v = {
+    ["<C-j>"] = { ":m '>+1<CR>gv-gv", "Move block one line down" },
+    ["<C-k>"] = { ":m '<-2<CR>gv-gv", "Move block one line up" },
+    ["<C-s>"] = { "<cmd>'<,'> Gitsigns stage_hunk <CR>", "stage selected range" },
+  },
   i = {
     ["jk"] = { "<ESC>", "escape insert mode", opts = { nowait = true } },
   },
