@@ -12,4 +12,5 @@ git clone https://github.com/pavelskipenes/nvchad-custom ~/.config/nvim/lua/cust
 
 ```sh
 cargo install dotenv-linter
+paru -S ttf-sourcecodepro-nerd
 ```
